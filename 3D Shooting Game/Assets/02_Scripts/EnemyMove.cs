@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyMove : MonoBehaviour {
+public class EnemyMove : MonoBehaviour
+{
     public float speed;
     public float randomSpeed = 0f;
     public Rigidbody EnemyRigidbody;

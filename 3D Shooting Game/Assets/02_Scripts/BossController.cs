@@ -18,5 +18,6 @@ public class BossController : MonoBehaviour
     IEnumerator BossAttack()
     {
         yield return BossAttackDelay;
+
     }
 }
